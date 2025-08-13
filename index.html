@@ -18,436 +18,489 @@
     <div class="particle" style="left: 80%; animation-delay: 4.5s;"></div>
     <div class="particle" style="left: 90%; animation-delay: 1.5s;"></div>
 
-    <header>
-        <div class="logo">Aspen Johnson</div>
-        <div class="header-content">
+    <!-- Header -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">Aspen Johnson</div>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#home" onclick="scrollToSection('welcome-sign')">
-                            <span class="icon">🏡</span>
-                            <span class="nav-text">Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#experience" onclick="scrollToSection('experience')">
-                            <span class="icon">💼</span>
-                            <span class="nav-text">Experience</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#skills" onclick="scrollToSection('skills')">
-                            <span class="icon">🛠️</span>
-                            <span class="nav-text">Skills</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects" onclick="scrollToSection('projects')">
-                            <span class="icon">🧰</span>
-                            <span class="nav-text">Projects</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#library" onclick="scrollToSection('library')">
-                            <span class="icon">📚</span>
-                            <span class="nav-text">Library</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact" onclick="scrollToSection('contact')">
-                            <span class="icon">📨</span>
-                            <span class="nav-text">Contact</span>
-                        </a>
-                    </li>
-                    <li>
-                        <object>
-                            <a href="https://www.linkedin.com/in/aspenjjohnson/overlay/1754445830781/single-media-viewer/?profileId=ACoAAEtcjUoBB86M_CW9T8ab4_zXy9LqiSZMCu8">
-                                <span class="icon">📄</span>
-                                <span class="nav-text">My Resume</span>
-                            </a>
-                        </object>
-                    </li>
+                <ul class="nav-links">
+                    <li><a href="#" data-page="home" class="active">
+                        <span class="icon">🏡</span>
+                        <span class="nav-text">Home</span>
+                    </a></li>
+                    <li><a href="#" data-page="experience">
+                        <span class="icon">💼</span>
+                        <span class="nav-text">Experience</span>
+                    </a></li>
+                    <li><a href="#" data-page="skills">
+                        <span class="icon">🛠️</span>
+                        <span class="nav-text">Skills</span>
+                    </a></li>
+                    <li><a href="#" data-page="projects">
+                        <span class="icon">🧰</span>
+                        <span class="nav-text">Projects</span>
+                    </a></li>
+                    <li><a href="#" data-page="library">
+                        <span class="icon">📚</span>
+                        <span class="nav-text">Library</span>
+                    </a></li>
+                    <li><a href="#" data-page="blog">
+                        <span class="icon">✍️</span>
+                        <span class="nav-text">Blog</span>
+                    </a></li>
+                    <li><a href="#" data-page="contact">
+                        <span class="icon">📨</span>
+                        <span class="nav-text">Contact</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/aspenjjohnson/overlay/1754445830781/single-media-viewer/?profileId=ACoAAEtcjUoBB86M_CW9T8ab4_zXy9LqiSZMCu8">
+                        <span class="icon">📄</span>
+                        <span class="nav-text">My Resume</span>
+                    </a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <!-- Home Section -->
-        <section id="welcome-sign">
-            <div class="welcome-sign">
-                <div>
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- Home Page -->
+        <div class="page active" id="home">
+            <section class="welcome-sign">
+                <div class="welcome-content">
                     <h2>Welcome To My Portfolio</h2>
-                    <p>Hello! I'm Aspen Johnson, a passionate 3rd year student at Mercer university <b>with a Mathematics and Finance</b> major and a <b>Physics</b> minor. </p>
+                    <p>Hello! I'm Aspen Johnson, a passionate 3rd year student at Mercer university <b>with a Mathematics and Finance</b> major and a <b>Physics</b> minor.</p>
                     <p>My curiosity drives me to take risks in hopes of understanding the world, as I believe the more you inquire and probe, the closer you get to a breakthrough.</p>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <!-- Experience Section -->
-        <section id="experience">
-            <h2 class="section-title">Experience & Extracurriculars </h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3>Undergraduate Research Assistant</h3>
-                    <div class="company">Mercer Mathematics Department</div>
-                    <div class="date">Est. Fall 2026 Semester</div>
-                    <p>Modelling basketball trajectories as parabolas based on an angle, theta, a release point, and basket constraints</p>
-                </div>
-                <div class="experience-card">
-                    <h3>Financial Analyst</h3>
-                    <div class="company">Zinzino USA, West Palm Beach FL</div>
-                    <div class="date">May 2025 - Present</div>
-                    <p> Had the opportunity to be apart of a special team, and impact the finance department within a week of my arrival by digitizing  more than 85% of a process and documenting a workflow for future employees</p>
-                </div>
-                <div class="experience-card">
-                    <h3>Undergraduate Research Assistant</h3>
-                    <div class="company">Mercer University Economics Department</div>
-                    <div class="date">Jan 2025 - Present</div>
-                    <p>Co-authored and empirically tested the Hessian-filter scaled Beta-t-EGARCH volatility model under Professor Szabolcs Blaszek. (Manuscript Under Review)</p>
-                </div>
-                <div class="experience-card">
-                    <h3>EDA on Car Prices</h3>
-                    <div class="company">Personal Project</div>
-                    <div class="date">Jan 2025 - Present</div>
-                    <p>Executed a linear regression with various Python libraries, programming a model to perform price predictions given user condition ratings, model was trained on 20% of the total data</p>
-                </div>
-                <div class="experience-card">
-                    <h3>Women's Basketball Athlete</h3>
-                    <div class="company">Mercer University </div>
-                    <div class="date">June 2022 - Jan 2025</div>
-                    <p>Competed at the division 1 level for 3 years, while maintaining a Major GPA of >3.0 </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2 class="section-title">Skills & Interest</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Relevant Courses</h3>
-                    <div class="skill-badges">
-                        <span class="skill-badge">Calculus I,II, and III</span>
-                        <span class="skill-badge">Linear Algebra </span>
-                        <span class="skill-badge">Differential Equations</span>
-                        <span class="skill-badge">Market Analysis & Portfolio Mgmt</span>
-                        <span class="skill-badge">International Finance</span>
-                        <span class="skill-badge">Physics I & II</span>
+        <!-- Experience Page -->
+        <div class="page" id="experience">
+            <section class="section">
+                <h2 class="section-title">Experience & Extracurriculars</h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <h3>Undergraduate Research Assistant</h3>
+                        <div class="company">Mercer Mathematics Department</div>
+                        <div class="date">Est. Fall 2026 Semester</div>
+                        <p>Modelling basketball trajectories as parabolas based on an angle, theta, a release point, and basket constraints</p>
                     </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Programming Tools</h3>
-                    <div class="skill-badges">
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">Java</span>
-                        <span class="skill-badge">GAUSS</span>
-                        <span class="skill-badge">HTML/CSS</span>
-                        <span class="skill-badge">Git</span>
-                        <span class="skill-badge">R</span>
-                        <span class="skill-badge">MS Office</span>
+                    <div class="experience-card">
+                        <h3>Financial Analyst</h3>
+                        <div class="company">Zinzino USA, West Palm Beach FL</div>
+                        <div class="date">May 2025 - Present</div>
+                        <p>Had the opportunity to be apart of a special team, and impact the finance department within a week of my arrival by digitizing more than 85% of a process and documenting a workflow for future employees</p>
                     </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Current Interests</h3>
-                    <div class="skill-badges">
-                        <span class="skill-badge">Minkowski Diagrams</span>
-                        <span class="skill-badge">Hamiltonian Mechanics</span>
-                        <span class="skill-badge">Lorentz Transformations</span>
-                        <span class="skill-badge">AWS Braket </span>
-                        <span class="skill-badge">IBM Intro to ML </span>
+                    <div class="experience-card">
+                        <h3>Undergraduate Research Assistant</h3>
+                        <div class="company">Mercer University Economics Department</div>
+                        <div class="date">Jan 2025 - Present</div>
+                        <p>Co-authored and empirically tested the Hessian-filter scaled Beta-t-EGARCH volatility model under Professor Szabolcs Blaszek. (Manuscript Under Review)</p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-container">
-                <div class="project-box">
-                    <div class="project-content">
-                        <h3>Pendulum Simulation (C++)</h3>
-                        <div class="project-description">
-                            <div class="project-preview" id="project1-preview">
-                                A comprehensive physics simulation project modeling pendulum motion using C++ with advanced numerical methods...
-                            </div>
-                            <div class="project-full" id="project1-full" style="display: none;">
-                                A comprehensive physics simulation project modeling pendulum motion using C++ with advanced numerical methods. This project implements Runge-Kutta integration for accurate motion prediction, includes damping effects, and features real-time visualization of phase space diagrams. The simulation handles both simple and compound pendulums with customizable parameters for mass, length, and initial conditions.
-                            </div>
-                        </div>
-                        <button class="expand-btn" onclick="toggleProject('project1')">Read More</button>
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-content">
-                        <h3>Portfolio_v-2</h3>
-                        <div class="project-description">
-                            <div class="project-preview" id="project2-preview">
-                                This current portfolio took over 12+ hours for me to make, featuring a futuristic design with animated elements...
-                            </div>
-                            <div class="project-full" id="project2-full" style="display: none;">
-                                This current portfolio took over 12+ hours for me to make, featuring a futuristic design with animated elements and responsive layouts. Built with pure HTML, CSS, and JavaScript, it showcases modern web development techniques including CSS Grid, Flexbox, backdrop filters, and complex animations. The design incorporates glassmorphism effects, floating particles, and smooth scrolling navigation for an immersive user experience.
-                            </div>
-                        </div>
-                        <button class="expand-btn" onclick="toggleProject('project2')">Read More</button>
-                        <a href="https://github.com/DormantBillionaire/portfolio-v2">View Code</a>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-content">
-                        <h3>Remittances In Sub-Sahara Africa</h3>
-                        <div class="project-description">
-                            <div class="project-preview" id="project3-preview">
-                                An econometric analysis showing that remittance inflows positively impact export performance in 12 Sub-Saharan African countries...
-                            </div>
-                            <div class="project-full" id="project3-full" style="display: none;">
-                                An econometric analysis showing that remittance inflows positively impact export performance in 12 Sub-Saharan African countries, offering policy insights for leveraging these funds to boost trade. This research employed panel data regression analysis, fixed effects models, and robust statistical testing to establish causal relationships. The study contributes to development economics literature and provides actionable recommendations for policymakers.
-                            </div>
-                        </div>
-                        <button class="expand-btn" onclick="toggleProject('project3')">Read More</button>
-                        <a href="Documents/FIN451 Final Paper Spring 2025.pdf" target="blank">Learn More</a>
-                    </div>
-                </div>
-                <div class="project-box">
-                    <div class="project-content">
+                    <div class="experience-card">
                         <h3>EDA on Car Prices</h3>
-                        <div class="project-description">
-                            <div class="project-preview" id="project4-preview">
-                                Executed a linear regression with various Python libraries, programming a model to perform price predictions...
+                        <div class="company">Personal Project</div>
+                        <div class="date">Jan 2025 - Present</div>
+                        <p>Executed a linear regression with various Python libraries, programming a model to perform price predictions given user condition ratings, model was trained on 20% of the total data</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3>Women's Basketball Athlete</h3>
+                        <div class="company">Mercer University</div>
+                        <div class="date">June 2022 - Jan 2025</div>
+                        <p>Competed at the division 1 level for 3 years, while maintaining a Major GPA of >3.0</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Skills Page -->
+        <div class="page" id="skills">
+            <section class="section">
+                <h2 class="section-title">Skills & Interest</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Relevant Courses</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Calculus I,II, and III</span>
+                            <span class="skill-badge">Linear Algebra</span>
+                            <span class="skill-badge">Differential Equations</span>
+                            <span class="skill-badge">Market Analysis & Portfolio Mgmt</span>
+                            <span class="skill-badge">International Finance</span>
+                            <span class="skill-badge">Physics I & II</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming Tools</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">GAUSS</span>
+                            <span class="skill-badge">HTML/CSS</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">R</span>
+                            <span class="skill-badge">MS Office</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Current Interests</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Minkowski Diagrams</span>
+                            <span class="skill-badge">Hamiltonian Mechanics</span>
+                            <span class="skill-badge">Lorentz Transformations</span>
+                            <span class="skill-badge">AWS Braket</span>
+                            <span class="skill-badge">IBM Intro to ML</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Projects Page -->
+        <div class="page" id="projects">
+            <section class="section">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-container">
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>Pendulum Simulation (C++)</h3>
+                            <div class="project-description">
+                                <div class="project-preview" id="project1-preview">
+                                    A comprehensive physics simulation project modeling pendulum motion using C++ with advanced numerical methods...
+                                </div>
+                                <div class="project-full" id="project1-full" style="display: none;">
+                                    A comprehensive physics simulation project modeling pendulum motion using C++ with advanced numerical methods. This project implements Runge-Kutta integration for accurate motion prediction, includes damping effects, and features real-time visualization of phase space diagrams. The simulation handles both simple and compound pendulums with customizable parameters for mass, length, and initial conditions.
+                                </div>
                             </div>
-                            <div class="project-full" id="project4-full" style="display: none;">
-                                Executed a linear regression with various Python libraries, programming a model to perform price predictions given user condition ratings. The model was trained on 20% of the total data using scikit-learn, pandas, and matplotlib for data visualization. Features include data preprocessing, feature engineering, cross-validation, and performance metrics evaluation. The project demonstrates proficiency in machine learning workflows and statistical analysis.
+                            <button class="expand-btn" onclick="toggleProject('project1')">Read More</button>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>Portfolio_v-2</h3>
+                            <div class="project-description">
+                                <div class="project-preview" id="project2-preview">
+                                    This current portfolio took over 12+ hours for me to make, featuring a futuristic design with animated elements...
+                                </div>
+                                <div class="project-full" id="project2-full" style="display: none;">
+                                    This current portfolio took over 12+ hours for me to make, featuring a futuristic design with animated elements and responsive layouts. Built with pure HTML, CSS, and JavaScript, it showcases modern web development techniques including CSS Grid, Flexbox, backdrop filters, and complex animations. The design incorporates glassmorphism effects, floating particles, and smooth scrolling navigation for an immersive user experience.
+                                </div>
+                            </div>
+                            <button class="expand-btn" onclick="toggleProject('project2')">Read More</button>
+                            <a href="https://github.com/DormantBillionaire/portfolio-v2">View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>Remittances In Sub-Sahara Africa</h3>
+                            <div class="project-description">
+                                <div class="project-preview" id="project3-preview">
+                                    An econometric analysis showing that remittance inflows positively impact export performance in 12 Sub-Saharan African countries...
+                                </div>
+                                <div class="project-full" id="project3-full" style="display: none;">
+                                    An econometric analysis showing that remittance inflows positively impact export performance in 12 Sub-Saharan African countries, offering policy insights for leveraging these funds to boost trade. This research employed panel data regression analysis, fixed effects models, and robust statistical testing to establish causal relationships. The study contributes to development economics literature and provides actionable recommendations for policymakers.
+                                </div>
+                            </div>
+                            <button class="expand-btn" onclick="toggleProject('project3')">Read More</button>
+                            <a href="Documents/FIN451 Final Paper Spring 2025.pdf" target="blank">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <div class="project-content">
+                            <h3>EDA on Car Prices</h3>
+                            <div class="project-description">
+                                <div class="project-preview" id="project4-preview">
+                                    Executed a linear regression with various Python libraries, programming a model to perform price predictions...
+                                </div>
+                                <div class="project-full" id="project4-full" style="display: none;">
+                                    Executed a linear regression with various Python libraries, programming a model to perform price predictions given user condition ratings. The model was trained on 20% of the total data using scikit-learn, pandas, and matplotlib for data visualization. Features include data preprocessing, feature engineering, cross-validation, and performance metrics evaluation. The project demonstrates proficiency in machine learning workflows and statistical analysis.
+                                </div>
+                            </div>
+                            <button class="expand-btn" onclick="toggleProject('project4')">Read More</button>
+                            <a href="https://github.com/DormantBillionaire/car-sales">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Library Page -->
+        <div class="page" id="library">
+            <section class="section">
+                <h2 class="section-title">My Digital Library</h2>
+                <div class="library-container">
+                    <div class="library-intro">
+                        <h3>Knowledge Repository</h3>
+                        <p>If you know me, then you know this is the section I'm most proud, and enamored by, so enjoy. Remember that true intelligence is the ability to bridge the gap between the seemingly unrelated, and discover and develop something meaningful. If you have any book suggestions, please don't hesitate to reach out!</p>
+                    </div>
+                    
+                    <div class="library-filters">
+                        <button class="filter-btn active" data-filter="all">All Books</button>
+                        <button class="filter-btn" data-filter="reading">Currently Reading</button>
+                        <button class="filter-btn" data-filter="completed">Completed</button>
+                        <button class="filter-btn" data-filter="next">Next Up</button>
+                        <button class="filter-btn" data-filter="reference">Reference</button>
+                    </div>
+                    
+                    <div class="library-grid">
+                        <div class="book-card" data-category="reading">
+                            <div class="book-icon">📖</div>
+                            <h3>Mathematical Methods In The Physical Sciences</h3>
+                            <div class="author">by Mary L. Boas</div>
+                            <span class="book-status reading">Currently Reading</span>
+                        </div>
+                        <div class="book-card" data-category="reading">
+                            <div class="book-icon">📚</div>
+                            <h3>Classical Mechanics</h3>
+                            <div class="author">by John R. Taylor</div>
+                            <span class="book-status reading">Currently Reading</span>
+                        </div>
+                        <div class="book-card" data-category="reading">
+                            <div class="book-icon">📓</div>
+                            <h3>The Way Of Kings</h3>
+                            <div class="author">by Brandon Sanderson</div>
+                            <span class="book-status reading">Currently Reading</span>
+                        </div>
+                        <div class="book-card" data-category="next">
+                            <div class="book-icon">📓</div>
+                            <h3>Words of Radiance</h3>
+                            <div class="author">by Brandon Sanderson</div>
+                            <span class="book-status">Next Up</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📕</div>
+                            <h3>Engineering Mathematics</h3>
+                            <div class="author">by Stroud</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="reading">
+                            <div class="book-icon">📘</div>
+                            <h3>Clean Code</h3>
+                            <div class="author">by Robert Martin</div>
+                            <span class="book-status reading">Currently Reading</span>
+                        </div>
+                        <div class="book-card" data-category="reference">
+                            <div class="book-icon">📗</div>
+                            <h3>The Feynman Lectures</h3>
+                            <div class="author">by Richard Feynman</div>
+                            <span class="book-status">Reference</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📕</div>
+                            <h3>Calculus: Early Transcendentals</h3>
+                            <div class="author">by Stewart</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📗</div>
+                            <h3>Bill Hodges Trilogy: End Of Watch</h3>
+                            <div class="author">by Stephen King</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📘</div>
+                            <h3>The Power Of Habit</h3>
+                            <div class="author">by Charles Duhigg</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📗</div>
+                            <h3>David & Goliath</h3>
+                            <div class="author">by Malcom Gladwell</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📓</div>
+                            <h3>Source Code</h3>
+                            <div class="author">by Bill Gates</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📕</div>
+                            <h3>The Next Day: Transitions, Change, and Moving Forward</h3>
+                            <div class="author">by Melinda F. Gates</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📗</div>
+                            <h3>How to Read A Book</h3>
+                            <div class="author">by Monica Wood</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📚</div>
+                            <h3>Mind and Matter: A Life in Math and Football</h3>
+                            <div class="author">by John Urscel</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📘</div>
+                            <h3>The Dip: A Little That Teaches You When To Quit</h3>
+                            <div class="author">by Seth Godin</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📙</div>
+                            <h3>My Brief History</h3>
+                            <div class="author">by Stephen Hawking</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📗</div>
+                            <h3>Outliers</h3>
+                            <div class="author">by Malcom Gladwell</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                        <div class="book-card" data-category="completed">
+                            <div class="book-icon">📚</div>
+                            <h3>How To Become A Straight-A Student</h3>
+                            <div class="author">Cal Newport</div>
+                            <span class="book-status completed">Completed</span>
+                        </div>
+                    </div>
+
+                    <div class="reading-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Books Completed In 2025</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Currently Reading</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">In Queue</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2.5</div>
+                            <div class="stat-label">Hours/Day Reading</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Blog Page -->
+        <div class="page" id="blog">
+            <section class="section">
+                <h2 class="section-title">Blog & Thoughts</h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">🔬</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">The Beauty of Mathematical Physics</h3>
+                            <p class="blog-excerpt">
+                                Exploring the elegant connections between mathematical formalism and physical reality, and how equations can reveal the hidden patterns of our universe.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Aug 10, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
                             </div>
                         </div>
-                        <button class="expand-btn" onclick="toggleProject('project4')">Read More</button>
-                        <a href="https://github.com/DormantBillionaire/car-sales">Learn More</a>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-image">💡</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">From Basketball Court to Trading Floor</h3>
+                            <p class="blog-excerpt">
+                                How lessons learned from competitive athletics translate into analytical thinking and decision-making in financial markets.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Aug 5, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-image">⚛️</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">Quantum Computing: The Next Frontier</h3>
+                            <p class="blog-excerpt">
+                                My journey into quantum mechanics and how AWS Braket is making quantum computing accessible to students and researchers.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Jul 28, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-image">📊</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">Data Science in Finance</h3>
+                            <p class="blog-excerpt">
+                                Breaking down complex financial models and how machine learning is revolutionizing risk assessment and market prediction.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Jul 20, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-image">📚</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">The Art of Learning</h3>
+                            <p class="blog-excerpt">
+                                Strategies for maintaining curiosity and continuous learning in an ever-evolving technological landscape.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Jul 15, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog-card">
+                        <div class="blog-image">🌍</div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">Global Economics Through Data</h3>
+                            <p class="blog-excerpt">
+                                Analyzing my research on Sub-Saharan African remittances and what it reveals about global economic interconnectedness.
+                            </p>
+                            <div class="blog-meta">
+                                <span>Jul 10, 2025</span>
+                                <a href="#" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="page" id="contact">
+            <section class="section">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Connect!</h3>
+                        <p>I'm always excited to discuss physics, mathematics, engineering projects, or potential collaborations. Feel free to reach out!</p>
+                        <div class="contact-links">
+                            <a href="mailto:aspenjohnson2024@gmail.com" class="contact-link">
+                                <span>📧</span>
+                                <span>Email</span>
+                            </a>
+                            <a href="https://linkedin.com/in/aspenjjohnson" class="contact-link">
+                                <span>💼</span>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/DormantBillionaire" class="contact-link">
+                                <span>💻</span>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+    </div>
 
-        <!-- Enhanced Library Section -->
-        <section id="library">
-            <h2 class="section-title">My Digital Library</h2>
-            <div class="library-container">
-                <div class="library-intro">
-                    <h3>Knowledge Repository</h3>
-                    <p>If you know me, then you know this is the section I'm most proud, and enamored by, so enjoy. Remember that true intelligence is the ability to bridge the gap between the seemingly unrelated, and discover and develop something meaningful. If you have any book suggestions, please don't hesitate to reach out!</p>
-                </div>
-                
-                <div class="library-grid">
-                    <div class="book-card">
-                        <div class="book-icon">📖</div>
-                        <h3>Mathematical Methods In The Physical Sciences</h3>
-                        <div class="author">by Mary L. Boas</div>
-                        <span class="book-status reading">Currently Reading</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📚</div>
-                        <h3>Classical Mechanics</h3>
-                        <div class="author">by John R. Taylor</div>
-                        <span class="book-status reading">Currently Reading</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📓</div>
-                        <h3>The Way Of Kings</h3>
-                        <div class="author">by Brandon Sanderson</div>
-                        <span class="book-status reading">Currently Reading</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📓</div>
-                        <h3>Words of Radiance</h3>
-                        <div class="author">by Brandon Sanderson</div>
-                        <span class="book-status">Next Up</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📕</div>
-                        <h3>Engineering Mathematics</h3>
-                        <div class="author">by Stroud</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📘</div>
-                        <h3>Clean Code</h3>
-                        <div class="author">by Robert Martin</div>
-                        <span class="book-status reading">Currently Reading</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📗</div>
-                        <h3>The Feynman Lectures</h3>
-                        <div class="author">by Richard Feynman</div>
-                        <span class="book-status">Reference</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📕</div>
-                        <h3>Calculus: Early Transcendentals</h3>
-                        <div class="author">by Stewart</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📗</div>
-                        <h3>Bill Hodges Trilogy: End Of Watch</h3>
-                        <div class="author">by Stephen King</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📘</div>
-                        <h3>The Power Of Habit</h3>
-                        <div class="author">by Charles Duhigg</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📗</div>
-                        <h3>David & Goliath</h3>
-                        <div class="author">by Malcom Gladwell</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📓</div>
-                        <h3>Source Code</h3>
-                        <div class="author">by Bill Gates</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📕</div>
-                        <h3>The Next Day: Transitions, Change, and Moving Forward</h3>
-                        <div class="author">by Melinda F. Gates</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📗</div>
-                        <h3>How to Read A Book</h3>
-                        <div class="author">by Monica Wood</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📚</div>
-                        <h3>Mind and Matter: A Life in Math and Football</h3>
-                        <div class="author">by John Urscel</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📘</div>
-                        <h3>The Dip: A Little That Teaches You When To Quit</h3>
-                        <div class="author">by Seth Godin</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📙</div>
-                        <h3>My Brief History</h3>
-                        <div class="author">by Stephen Hawking</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📗</div>
-                        <h3>Outliers</h3>
-                        <div class="author">by Malcom Gladwell</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                    <div class="book-card">
-                        <div class="book-icon">📚</div>
-                        <h3>How To Become A Straight-A Student</h3>
-                        <div class="author">Cal Newport</div>
-                        <span class="book-status completed">Completed</span>
-                    </div>
-                </div>
-
-                <div class="reading-stats">
-                    <div class="stat-card">
-                        <div class="stat-number">12</div>
-                        <div class="stat-label">Books Completed In 2025</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">3</div>
-                        <div class="stat-label">Currently Reading</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">8</div>
-                        <div class="stat-label">In Queue</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">2.5</div>
-                        <div class="stat-label">Hours/Day Reading</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Let's Connect!</h3>
-                    <p>I'm always excited to discuss physics, mathematics, engineering projects, or potential collaborations. Feel free to reach out!</p>
-                    <div class="contact-links">
-                        <a href="mailto:aspenjohnson2024@gmail.com" class="contact-link">
-                            <span>📧</span>
-                            <span>Email</span>
-                        </a>
-                        <a href="https://linkedin.com/in/aspenjjohnson" class="contact-link">
-                            <span>💼</span>
-                            <span>LinkedIn</span>
-                        </a>
-                        <a href="https://github.com/DormantBillionaire" class="contact-link">
-                            <span>💻</span>
-                            <span>GitHub</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <script>
-        function scrollToSection(sectionId) {
-            const element = document.getElementById(sectionId);
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-        }
-
-        function toggleProject(projectId) {
-            const preview = document.getElementById(projectId + '-preview');
-            const full = document.getElementById(projectId + '-full');
-            const button = event.target;
-            
-            if (preview.style.display === 'none') {
-                preview.style.display = 'block';
-                full.style.display = 'none';
-                button.textContent = 'Read More';
-            } else {
-                preview.style.display = 'none';
-                full.style.display = 'block';
-                button.textContent = 'Show Less';
-            }
-        }
-
-        // Create additional floating particles dynamically
-        function createParticles() {
-            for (let i = 0; i < 15; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.animationDelay = Math.random() * 10 + 's';
-                particle.style.animationDuration = (Math.random() * 5 + 5) + 's';
-                document.body.appendChild(particle);
-            }
-        }
-
-        // Initialize particles when page loads
-        document.addEventListener('DOMContentLoaded', createParticles);
-
-        // Add smooth scrolling behavior to navigation
-        document.querySelectorAll('nav a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                scrollToSection(targetId);
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

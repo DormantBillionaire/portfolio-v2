@@ -165,8 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.glass-card').forEach((card, idx) => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(20px)';
-        card.style.transition = 'all 0.6s ease';
-        card.style.transitionDelay = `${idx * 0.06}s`;
+        card.style.transition = 'all 0.4s ease';
+        card.style.transitionDelay = `${idx * 0.025}s`;
         observer.observe(card);
       });
   
@@ -211,8 +211,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <p>&nbsp;&nbsp;&nbsp;&nbsp;When I was hit by a car on my bicycle my senior year, 3 months before my freshman semester in college, I was devastated. But had I not had to sit out, I don't know if I would have another perspective of Aspen to tell you about, apart from dribbling a ball and reading.</p>
           
           <div class="blog-image-container" style="margin: 20px 0; text-align: center;">
-            <img src="images/gum-in-mouth.jpg" alt="Basketball memories" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-            <p style="font-style: italic; color: #ffffff; margin-top: 8px;">Stopped chewing gum during games, because it made me insanely out of breath</p>
+            <img src="images/picture-inbound.jpg" alt="Basketball memories" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+            <p style="font-style: italic; color: #ffffff; margin-top: 8px;"> Mercer v. UGA </p>
           </div>
           
           <p>&nbsp;&nbsp;&nbsp;&nbsp;My choice to quit basketball was a manifestation of many things: falling out of love with the sport, imposter syndrome, and the <strong>insane</strong> desire to pursue something greater academically. I owe thanks to many people for supporting me throughout it all, and they know who they are—thank you for being there for me when I could not be there for myself.</p>
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <p style="margin-top: 12px; font-size: 14px; color: #ffffff; font-weight: 500;">My older sister, Jamali</p>
             </div>
             <div class="photo-item" style="text-align: center;">
-              <img src="images/smith-family.png" alt="The Smith family" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+              <img src="images/smith-family-1.png" alt="The Smith family" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
               <p style="margin-top: 12px; font-size: 14px; color: #ffffff; font-weight: 500;">Two ACLs later & they still tolerate me</p>
             </div>
             <div class="photo-item" style="text-align: center;">
@@ -257,11 +257,11 @@ document.addEventListener('DOMContentLoaded', () => {
           <h3 style="margin-top: 40px; color: #007acc;">Mentors & Lifelong Friends</h3>
           <div class="photo-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 20px 0;">
             <div class="photo-item" style="text-align: center;">
-              <img src="images/maddie-and-I.png" alt="Aspen with Maddison Andrews" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+              <img src="images/maddie-and-I-2.png" alt="Aspen with Maddison Andrews" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
               <p style="margin-top: 12px; font-size: 14px; color: #ffffff; font-weight: 500;">Maddison "Maddie" Andrews, enough said lol</p>
             </div>
             <div class="photo-item" style="text-align: center;">
-              <img src="images/huddy.png" alt="Coach Hudson" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+              <img src="images/huddy-2.png" alt="Coach Hudson" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
               <p style="margin-top: 12px; font-size: 14px; color: #ffffff; font-weight: 500;">My high school coach, Coach Hudson</p>
             </div>
             <div class="photo-item" style="text-align: center;">
@@ -289,8 +289,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <hr style="margin: 40px 0; border: none; height: 2px; background: linear-gradient(to right, transparent, #007acc, transparent);">
           
           <div style="text-align: center; background: rgba(0,122,204,0.1); padding: 25px; border-radius: 12px; margin: 20px 0;">
-            <p style="font-style: italic; color: #ffffff; font-size: 18px; margin: 0; line-height: 1.6;">"The best time to plant a tree was 20 years ago. The second best time is now."</p>
-            <p style="color: #cccccc; margin-top: 10px; font-size: 14px;">— Chinese Proverb</p>
+            <p style="font-style: italic; color: #ffffff; font-size: 18px; margin: 0; line-height: 1.6;">"Discipline is when your identity is so clear that you stop negotiating with your feelings."</p>
+            <p style="color: #cccccc; margin-top: 10px; font-size: 14px;">— Pinterest Quote</p>
           </div>
         `
       },
